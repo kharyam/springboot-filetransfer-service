@@ -2,7 +2,7 @@
 
 Simple file transfer web service in spring boot
 
-Define the directories within [application.yaml](src/main/resources/application.yaml])
+Define the directories within [application.yaml](src/main/resources/application.yaml)
 
 e.g.,
 ```yaml
@@ -28,4 +28,4 @@ curl http://localhost:8080/filetransfer/mydatadir/test.txt
 
 ## TODO
 
-Configure mutual authentication (mTLS) for security. Settings are stubbed out in [application.yaml](src/main/resources/application.yaml])
+Configure mutual authentication (mTLS) for security. Settings are stubbed out in [application.yaml](src/main/resources/application.yaml)
