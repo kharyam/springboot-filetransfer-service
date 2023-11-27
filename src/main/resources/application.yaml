@@ -1,0 +1,28 @@
+# Directory Defintions
+mydatadir: /tmp
+
+# Max file sizes
+spring:
+  servlet:
+    multipart:
+      max-file-size: 5GB
+      max-request-size: 5GB
+
+# Server configuration
+server:
+  port: 8080
+  #port: 8443
+
+# mTLS Configuration
+# https://medium.com/@salarai.de/how-to-enable-mutual-tls-in-a-sprint-boot-application-77144047940f
+#
+#  ssl:
+#    enabled: true
+#    key-store: "classpath:keystore.p12"
+#    key-store-password: changeit
+#    key-store-type: PKCS12
+#
+#    client-auth: need
+#    trust-store: "classpath:truststore.p12"
+#    trust-store-password: changeit
+#    trust-store-type: PKCS12
